@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 20px 60px 80px 60px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #444444;
+    background-color: #fafafa;
+}
+
+h1 {
+    color: #CC5500; /*Burnt Orange*/
+    font-size: 42px;
+}
+
+h2 {
+    color: #D27D2D; /*Cinnamon*/
+    margin-top: 15px;
+}
+
+.recipes-list {
+    list-style: none;
+}
+
+.link-item,
+.button {
+    text-decoration: none;
+    color: #444444;
+}
+
+.link-item:hover {
+    color: #111111;
+}
+
+/** Recipes styles**/
+
+.recipe-img {
+    max-width: 500px;
+    max-height: auto;
+    border-radius: 1dvh;
+    box-shadow: 0px 2px 3px #444444;
+}
+
+.button.homepage {
+    margin: 40px 0;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #D27D2D;
+    position: fixed;
+    bottom: 0;
+}
